@@ -31,7 +31,7 @@ body {
 }
 
 .image {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .bio {
@@ -61,10 +61,10 @@ body {
   background-position: left center;
 }
 
-.text-paragraph {
+.text {
   margin: 0;
-  margin-bottom: 48px;
-  max-width: 871px;
+  margin-bottom: 40px;
+  max-width: 872px;
   font-size: 20px;
   line-height: 180%;
   color: #333;
@@ -72,7 +72,7 @@ body {
 
 .main-title {
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 60px;
   line-height: 69px;
@@ -81,7 +81,7 @@ body {
 
 .second-title {
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 40px;
   line-height: 46px;
@@ -95,9 +95,10 @@ body {
 
 .image-wrapper {
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   display: inline-block;
   font-size: 0;
+  max-width: 872px;
 }
 
 .image-description {
@@ -116,24 +117,25 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 96px 0;
+  padding: 80px 0;
 }
 
 .text-block {
-  margin-bottom: 96px;
-  padding: 32px;
-  background-color: #f5f5f5;
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #f3f3f3;
   background-repeat: no-repeat;
   background-position: right center;
+  border-radius: 20px;
 }
 
 .text-block:last-child {
   margin: 0;
 }
 
-.text-block .text-paragraph {
-  margin-bottom: 8px;
-  max-width: 648px;
+.text-block .text {
+  margin-bottom: 10px;
+  max-width: 692px;
   line-height: 160%;
 }
 
